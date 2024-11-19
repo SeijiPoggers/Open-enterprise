@@ -9,6 +9,8 @@
 
 body{
     background-color: #F9F9F9;
+    height: 100vh;
+    width: auto;
 }
 
 header{
@@ -41,6 +43,11 @@ nav ul li{
     justify-content: space-between;
     align-items: center;
     margin-top: 7.5rem;
+}
+
+.left{
+    margin: 0 0 3rem 5rem;
+    width: 42vw;
 }
 
 .title{
@@ -118,4 +125,52 @@ nav ul li{
     font-weight: 700;
     margin: .5rem;
     font-family: Roboto;
+}
+
+.start{
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 7.5rem 3rem 3rem 3rem;
+}
+
+.middesc{
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 300;
+}
+
+.halftitle{
+        font-size: 64px;
+        font-family: Playfair Display;
+        font-weight: 900;
+        margin-bottom: 1rem;
+}
+
+.upvote{
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    margin: 7.5rem 3rem 3rem 3rem;
+}
+
+.icon{
+    margin-bottom: 3rem;
+}
+
+.right{
+    margin-right: 5rem;
+}
+
+.upvote .left{
+    margin-right: 5rem;
+}
+
+.upvote .right{
+    margin-left: 5rem;
 }
