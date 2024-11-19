@@ -105,6 +105,7 @@ nav ul li{
     height: 340px;
     background-color: #fff;
     margin: 3rem;
+    box-shadow: 2.5px 2.5px 5px rgba(0, 0, 0, .2);
 }
 
 .subdesc{
